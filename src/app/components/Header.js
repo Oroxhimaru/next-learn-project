@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/app/styles/navbar.module.css'
-import Nav from './Nav'
+import Nav from "@/app/components/Nav";
 
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
                     <Image src="/mhm.png" alt='logo' width={150} height={40} />
                 </Link>
             </div>
-           <Nav />
+            <Nav />
     </header>
     </>
   )
